@@ -6,7 +6,7 @@ You can search for products, filter by price, and even filter by featured status
 
 ## To check the API straightaway
 
-1. ## Endpoints:
+1.  **Endpoints:**
 
   GET - https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/
 
@@ -18,7 +18,7 @@ You can search for products, filter by price, and even filter by featured status
   
    https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/api?search=apple&featured=true&price=154&price=1154
   
-   **Single Select Price and Search for 'S20'**
+3. **Single Select Price and Search for 'S20'**
   
   Retrieve products with the search term 'S20' and a price of 505.
   
