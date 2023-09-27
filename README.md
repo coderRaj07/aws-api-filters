@@ -6,7 +6,7 @@ You can search for products, filter by price, and even filter by featured status
 
 ## To check the API straightaway
 
-1. Endpoints:
+1. ## Endpoints:
 
   GET - https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/
 
