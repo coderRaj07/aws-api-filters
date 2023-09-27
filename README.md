@@ -16,13 +16,13 @@ You can search for products, filter by price, and even filter by featured status
 
   Retrieve products with the search term 'apple', a price of 154, and a price of 1154 that are also featured.
   
-     GET - https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/api?search=apple&featured=true&price=154&price=1154
+   https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/api?search=apple&featured=true&price=154&price=1154
   
    **Single Select Price and Search for 'S20'**
   
   Retrieve products with the search term 'S20' and a price of 505.
   
-     GET - https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/api?search=S20&price=505
+   https://ela5l4r1wf.execute-api.ap-south-1.amazonaws.com/api?search=S20&price=505
 
 
 ## Running the App locally
