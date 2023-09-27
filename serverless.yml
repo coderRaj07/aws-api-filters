@@ -1,0 +1,30 @@
+service: aws-api-filters
+frameworkVersion: '3'
+
+plugins:
+  # - serverless-dotenv-plugin
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  memorySize: 128
+  region: ap-south-1
+  stage: ${opt:stage,'dev'}
+
+functions:
+  app:
+    handler: app.handler
+    events:
+      - httpApi:
+          path: /
+          method: GET
+
+  api:
+    handler: app.handler
+    events:
+      - httpApi:
+          path: /api   # Define the path for your API routes
+          method: GET   # You can specify the HTTP methods you want to allow
+
+          
